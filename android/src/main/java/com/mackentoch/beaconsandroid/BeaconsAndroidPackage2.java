@@ -1,4 +1,4 @@
-package com.mackentoch.beaconsandroid;
+package com.mackentoch2.beaconsandroid2;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;
@@ -9,12 +9,12 @@ import com.facebook.react.uimanager.ViewManager;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BeaconsAndroidPackage implements ReactPackage {
+public class BBeaconsAndroidPackage2 implements ReactPackage {
 
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
         List<NativeModule> modules = new ArrayList<>();
-        modules.add(new BeaconsAndroidModule(reactContext));
+        modules.add(new BeaconsAndroidModule2(reactContext));
         return modules;
     }
 

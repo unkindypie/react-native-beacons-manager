@@ -1,4 +1,4 @@
-package com.mackentoch.beaconsandroid;
+package com.mackentoch2.beaconsandroid2;
 
 import android.content.Context;
 import android.content.Intent;
@@ -35,17 +35,17 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
-public class BeaconsAndroidModule extends ReactContextBaseJavaModule implements BeaconConsumer {
-  private static final String LOG_TAG = "BeaconsAndroidModule";
+public class BeaconsAndroidModule2 extends ReactContextBaseJavaModule implements BeaconConsumer {
+  private static final String LOG_TAG = "BeaconsAndroidModule2";
   private static final int RUNNING_AVG_RSSI_FILTER = 0;
   private static final int ARMA_RSSI_FILTER = 1;
   private BeaconManager mBeaconManager;
   private Context mApplicationContext;
   private ReactApplicationContext mReactContext;
 
-  public BeaconsAndroidModule(ReactApplicationContext reactContext) {
+  public BeaconsAndroidModule2(ReactApplicationContext reactContext) {
     super(reactContext);
-    Log.d(LOG_TAG, "BeaconsAndroidModule - started");
+    Log.d(LOG_TAG, "BeaconsAndroidModule2 - started");
     this.mReactContext = reactContext;
   }
 
@@ -83,14 +83,14 @@ public class BeaconsAndroidModule extends ReactContextBaseJavaModule implements 
 
   public void bindManager() {
     if (!mBeaconManager.isBound(this)) {
-      Log.d(LOG_TAG, "BeaconsAndroidModule - bindManager: ");
+      Log.d(LOG_TAG, "BeaconsAndroidModule2 - bindManager: ");
       mBeaconManager.bind(this);
     }
   }
 
   public void unbindManager() {
     if (mBeaconManager.isBound(this)) {
-      Log.d(LOG_TAG, "BeaconsAndroidModule - unbindManager: ");
+      Log.d(LOG_TAG, "BeaconsAndroidModule2 - unbindManager: ");
       mBeaconManager.unbind(this);
     }
   }
@@ -98,7 +98,7 @@ public class BeaconsAndroidModule extends ReactContextBaseJavaModule implements 
   @ReactMethod
   public void addParser(String parser, Callback resolve, Callback reject) {
     try {
-      Log.d(LOG_TAG, "BeaconsAndroidModule - addParser: " + parser);
+      Log.d(LOG_TAG, "BeaconsAndroidModule2 - addParser: " + parser);
       unbindManager();
       mBeaconManager.getBeaconParsers().add(new BeaconParser().setBeaconLayout(parser));
       bindManager();
@@ -111,7 +111,7 @@ public class BeaconsAndroidModule extends ReactContextBaseJavaModule implements 
   @ReactMethod
   public void removeParser(String parser, Callback resolve, Callback reject) {
     try {
-      Log.d(LOG_TAG, "BeaconsAndroidModule - removeParser: " + parser);
+      Log.d(LOG_TAG, "BeaconsAndroidModule2 - removeParser: " + parser);
       unbindManager();
       mBeaconManager.getBeaconParsers().remove(new BeaconParser().setBeaconLayout(parser));
       bindManager();
