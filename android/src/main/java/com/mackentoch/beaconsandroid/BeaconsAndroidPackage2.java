@@ -9,7 +9,7 @@ import com.facebook.react.uimanager.ViewManager;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BBeaconsAndroidPackage2 implements ReactPackage {
+public class BeaconsAndroidPackage2 implements ReactPackage {
 
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
