@@ -13,7 +13,7 @@ Before starting tell the library what kind of beacon you want to manage.
 Beacons.detectIBeacons();
 ```
 
-[See matching lines in sample example](https://github.com/MacKentoch/react-native-beacons-manager/blob/master/examples/samples/monitoringAndRanging.android.js#L34)
+[See matching lines in sample example](https://github.com/MacKentoch/react-native-beacons-manager-new/blob/master/examples/samples/monitoringAndRanging.android.js#L34)
 
 ## 2- start monitoring and ranging
 
@@ -39,7 +39,7 @@ Beacons
   .catch(error => console.log(`Beacons ranging not started, error: ${error}`));
 ```
 
-[See matching lines in sample example](https://github.com/MacKentoch/react-native-beacons-manager/blob/master/examples/samples/monitoringAndRanging.android.js#L36)
+[See matching lines in sample example](https://github.com/MacKentoch/react-native-beacons-manager-new/blob/master/examples/samples/monitoringAndRanging.android.js#L36)
 
 ## 3- register events
 
@@ -83,7 +83,7 @@ this.regionDidExitEvent = Beacons.BeaconsEventEmitter.addListener(
 - **if you start the monotoring when already in region, `regionDidEnter` will not trigger first time. (leave region and wait at least 30 seconds then enter again the region)**
 
 
-[See matching lines in sample example](https://github.com/MacKentoch/react-native-beacons-manager/blob/master/examples/samples/monitoringAndRanging.android.js#L54)
+[See matching lines in sample example](https://github.com/MacKentoch/react-native-beacons-manager-new/blob/master/examples/samples/monitoringAndRanging.android.js#L54)
 
 
 ## 4- on componentWillUnMount: unregister events and stop monitoring
@@ -115,4 +115,4 @@ this.regionDidEnterEvent.remove();
 this.regionDidExitEvent.remove();
 ```
 
-[See matching lines in sample example](https://github.com/MacKentoch/react-native-beacons-manager/blob/master/examples/samples/monitoringAndRanging.android.js#L87)
+[See matching lines in sample example](https://github.com/MacKentoch/react-native-beacons-manager-new/blob/master/examples/samples/monitoringAndRanging.android.js#L87)

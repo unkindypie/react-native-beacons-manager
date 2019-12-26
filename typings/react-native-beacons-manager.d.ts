@@ -1,4 +1,4 @@
-declare module 'react-native-beacons-manager' {
+declare module 'react-native-beacons-manager-new' {
 
   export interface BeaconRegion {
     identifier: string,

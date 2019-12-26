@@ -1,6 +1,6 @@
 /* eslint-disable */
 
-import Beacons  from 'react-native-beacons-manager';
+import Beacons  from 'react-native-beacons-manager-new';
 import moment   from 'moment';
 
 const TIME_FORMAT = 'MM/DD/YYYY HH:mm:ss';

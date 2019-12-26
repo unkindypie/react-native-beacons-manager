@@ -17,7 +17,7 @@ If you don't:
 
 > For monitoring you don't have the choice you have to request `Always` authorization wether you need background mode or not.
 
-[See matching lines in sample example](https://github.com/MacKentoch/react-native-beacons-manager/blob/master/examples/samples/monitoring.ios.js#L36)
+[See matching lines in sample example](https://github.com/MacKentoch/react-native-beacons-manager-new/blob/master/examples/samples/monitoring.ios.js#L36)
 
 ### 1 `Beacons.requestAlwaysAuthorization();` (**background and foreground use-case**)
 
@@ -28,7 +28,7 @@ Ensure to call
 Beacons.requestAlwaysAuthorization();
 ```
 
-[See matching lines in sample example](https://github.com/MacKentoch/react-native-beacons-manager/blob/master/examples/samples/monitoring.ios.js#L36)
+[See matching lines in sample example](https://github.com/MacKentoch/react-native-beacons-manager-new/blob/master/examples/samples/monitoring.ios.js#L36)
 
 #### in your iOS project
 
@@ -55,7 +55,7 @@ Beacons.startMonitoringForRegion(region)
 .catch(error => console.log(`Beacons monitoring not started, error: ${error}`));
 ```
 
-[See matching lines in sample example](https://github.com/MacKentoch/react-native-beacons-manager/blob/master/examples/samples/monitoring.ios.js#L43)
+[See matching lines in sample example](https://github.com/MacKentoch/react-native-beacons-manager-new/blob/master/examples/samples/monitoring.ios.js#L43)
 
 ## 3- get the position of the device
 
@@ -66,7 +66,7 @@ Just call:
 Beacons.startUpdatingLocation();
 ```
 
-[See matching lines in sample example](https://github.com/MacKentoch/react-native-beacons-manager/blob/master/examples/samples/monitoring.ios.js#L45)
+[See matching lines in sample example](https://github.com/MacKentoch/react-native-beacons-manager-new/blob/master/examples/samples/monitoring.ios.js#L45)
 
 ## 4- register events
 
@@ -103,7 +103,7 @@ this.regionDidExitEvent = Beacons.BeaconsEventEmitter.addListener(
 - **if you start the monotoring when already in region, `regionDidEnter` will not trigger first time. (leave region and wait at least 30 seconds then enter again the region)**
 
 
-[See matching lines in sample example](https://github.com/MacKentoch/react-native-beacons-manager/blob/master/examples/samples/monitoring.ios.js#L54)
+[See matching lines in sample example](https://github.com/MacKentoch/react-native-beacons-manager-new/blob/master/examples/samples/monitoring.ios.js#L54)
 
 
 ## 5- on componentWillUnMount: unregister events and stop monitoring
@@ -127,4 +127,4 @@ this.regionDidEnterEvent.remove();
 this.regionDidExitEvent.remove();
 ```
 
-[See matching lines in sample example](https://github.com/MacKentoch/react-native-beacons-manager/blob/master/examples/samples/monitoring.ios.js#L75)
+[See matching lines in sample example](https://github.com/MacKentoch/react-native-beacons-manager-new/blob/master/examples/samples/monitoring.ios.js#L75)

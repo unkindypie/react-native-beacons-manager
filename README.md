@@ -1,13 +1,13 @@
-[![npm](https://img.shields.io/npm/l/react-native-beacons-manager.svg)](https://github.com/MacKentoch/react-native-beacons-manager)
-[![npm](https://img.shields.io/npm/v/react-native-beacons-manager.svg)](https://www.npmjs.com/package/react-native-beacons-manager)
-[![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/react-native-beacons-manager/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
+[![npm](https://img.shields.io/npm/l/react-native-beacons-manager-new.svg)](https://github.com/MacKentoch/react-native-beacons-manager-new)
+[![npm](https://img.shields.io/npm/v/react-native-beacons-manager-new.svg)](https://www.npmjs.com/package/react-native-beacons-manager-new)
+[![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/react-native-beacons-manager-new/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 
-# react-native-beacons-manager
+# react-native-beacons-manager-new
 
 ![logo](./images/RN-iBeacon.png)
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FMacKentoch%2Freact-native-beacons-manager.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FMacKentoch%2Freact-native-beacons-manager?ref=badge_shield)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FMacKentoch%2Freact-native-beacons-manager-new.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FMacKentoch%2Freact-native-beacons-manager-new?ref=badge_shield)
 
-`react-native-beacons-manager`: add beacon technology in your React Native application for both iOS and Android.
+`react-native-beacons-manager-new`: add beacon technology in your React Native application for both iOS and Android.
 
 This repository is born to keep alive and up to date these 3 original awesome:
 - [ibeacon for android](https://github.com/mmazzarolo/react-native-beacons-android)
@@ -35,16 +35,16 @@ If you want to test with a `simulated beacon`, there is a useful free applicatio
 ### 1. get modules
 *via npm:*
 ```javascript:
-npm install react-native-beacons-manager
+npm install react-native-beacons-manager-new
 ```
 *or via yarn:*
 ```javascript:
-yarn add react-native-beacons-manager
+yarn add react-native-beacons-manager-new
 ```
 ### 2. link to your application
 
 ```javascript
-react-native link react-native-beacons-manager
+react-native link react-native-beacons-manager-new
 ```
 ### 3.a configuration specific to iOS
 
@@ -71,7 +71,7 @@ Just don't forget to activate
 
 ## 4. usage
 
->NOTE: If simple examples below don't help you as much as you wanted, [check detailed documentation depending on use-case + code samples here](https://github.com/MacKentoch/react-native-beacons-manager/tree/master/examples/samples#detailed-documentation--sample-code)
+>NOTE: If simple examples below don't help you as much as you wanted, [check detailed documentation depending on use-case + code samples here](https://github.com/MacKentoch/react-native-beacons-manager-new/tree/master/examples/samples#detailed-documentation--sample-code)
 
 ### 4.a iOS
 
@@ -79,7 +79,7 @@ Just don't forget to activate
 
 ```javascript
 import { DeviceEventEmitter } from 'react-native'
-import Beacons from 'react-native-beacons-manager'
+import Beacons from 'react-native-beacons-manager-new'
 
 // Define a region which can be identifier + uuid,
 // identifier + uuid + major or identifier + uuid + major + minor
@@ -148,7 +148,7 @@ const subscription = DeviceEventEmitter.addListener(
 
 ```javascript
 import { DeviceEventEmitter } from 'react-native'
-import Beacons from 'react-native-beacons-manager'
+import Beacons from 'react-native-beacons-manager-new'
 
 // Tells the library to detect iBeacons
 Beacons.detectIBeacons()
@@ -209,7 +209,7 @@ DeviceEventEmitter.addListener('beaconsDidRange', (data) => {
 
 ## Donate
 
-Do you use & like react-native-beacons-manager but you don’t find a way to show some love?
+Do you use & like react-native-beacons-manager-new but you don’t find a way to show some love?
 If yes, please consider donating to support this project. Otherwise, no worries, regardless of whether there is support or not, I will keep maintaining this project. Still, if you buy me a cup of coffee I would be more than happy though 😄
 
 [![Support via PayPal](./images/paypal/Paypal-button.png)](https://www.paypal.me/ErwanDatin/)
@@ -240,4 +240,4 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FMacKentoch%2Freact-native-beacons-manager.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FMacKentoch%2Freact-native-beacons-manager?ref=badge_large)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FMacKentoch%2Freact-native-beacons-manager-new.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FMacKentoch%2Freact-native-beacons-manager-new?ref=badge_large)

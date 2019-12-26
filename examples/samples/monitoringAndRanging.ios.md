@@ -31,7 +31,7 @@ this.authStateDidRangeEvent = Beacons.BeaconsEventEmitter.addListener(
 );
 ```
 
-[See matching lines in sample example](https://github.com/MacKentoch/react-native-beacons-manager/blob/master/examples/samples/monitoringAndRanging.ios.js#L37)
+[See matching lines in sample example](https://github.com/MacKentoch/react-native-beacons-manager-new/blob/master/examples/samples/monitoringAndRanging.ios.js#L37)
 
 #### in your iOS project
 
@@ -77,7 +77,7 @@ Just call:
 Beacons.startUpdatingLocation();
 ```
 
-[See matching lines in sample example](https://github.com/MacKentoch/react-native-beacons-manager/blob/master/examples/samples/monitoringAndRanging.ios.js#L42)
+[See matching lines in sample example](https://github.com/MacKentoch/react-native-beacons-manager-new/blob/master/examples/samples/monitoringAndRanging.ios.js#L42)
 
 ## 4- register events
 
@@ -124,7 +124,7 @@ this.regionDidExitEvent = Beacons.BeaconsEventEmitter.addListener(
 - **if you start the monotoring when already in region, `regionDidEnter` will not trigger first time. (leave region and wait at least 30 seconds then enter again the region)**
 
 
-[See matching lines in sample example](https://github.com/MacKentoch/react-native-beacons-manager/blob/master/examples/samples/monitoringAndRanging.ios.js#L57)
+[See matching lines in sample example](https://github.com/MacKentoch/react-native-beacons-manager-new/blob/master/examples/samples/monitoringAndRanging.ios.js#L57)
 
 
 ## 5- on componentWillUnMount: unregister events and stop monitoring
@@ -155,4 +155,4 @@ this.regionDidExitEvent.remove();
 this.beaconsDidRangeEvent.remove();
 ```
 
-[See matching lines in sample example](https://github.com/MacKentoch/react-native-beacons-manager/blob/master/examples/samples/monitoringAndRanging.ios.js#L85)
+[See matching lines in sample example](https://github.com/MacKentoch/react-native-beacons-manager-new/blob/master/examples/samples/monitoringAndRanging.ios.js#L85)

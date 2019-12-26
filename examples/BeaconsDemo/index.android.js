@@ -14,7 +14,7 @@ import {
   ToastAndroid,
   Image,
 } from 'react-native';
-import Beacons from 'react-native-beacons-manager';
+import Beacons from 'react-native-beacons-manager-new';
 import { Avatar } from 'react-native-elements';
 import moment from 'moment';
 import beaconIMAGE from './images/beacons/ibeacon.png';

@@ -10,10 +10,10 @@ This documentation is written to make your life easier and to give and you answe
 
 iOS will ask you a bit more attention and configuration.
 
-- [ranging (only)](https://github.com/MacKentoch/react-native-beacons-manager/blob/master/examples/samples/ranging.ios.md)
-- [monitoring (only)](https://github.com/MacKentoch/react-native-beacons-manager/blob/master/examples/samples/monitoring.ios.md)
-- [monitoring and ranging at same time](https://github.com/MacKentoch/react-native-beacons-manager/blob/master/examples/samples/monitoringAndRanging.ios.md)
-- [multiple beacons ranging full example](https://github.com/MacKentoch/react-native-beacons-manager/blob/master/examples/samples/multipleBeacon.range.ios.js)
+- [ranging (only)](https://github.com/MacKentoch/react-native-beacons-manager-new/blob/master/examples/samples/ranging.ios.md)
+- [monitoring (only)](https://github.com/MacKentoch/react-native-beacons-manager-new/blob/master/examples/samples/monitoring.ios.md)
+- [monitoring and ranging at same time](https://github.com/MacKentoch/react-native-beacons-manager-new/blob/master/examples/samples/monitoringAndRanging.ios.md)
+- [multiple beacons ranging full example](https://github.com/MacKentoch/react-native-beacons-manager-new/blob/master/examples/samples/multipleBeacon.range.ios.js)
 
 
 *Don't forget to activate bluetooth on your device.*
@@ -22,9 +22,9 @@ iOS will ask you a bit more attention and configuration.
 
 Android asks less configuration.
 
-- [ranging (only)](https://github.com/MacKentoch/react-native-beacons-manager/blob/master/examples/samples/ranging.android.md)
-- [monitoring (only)](https://github.com/MacKentoch/react-native-beacons-manager/blob/master/examples/samples/monitoring.android.md)
-- [monitoring and ranging at same time](https://github.com/MacKentoch/react-native-beacons-manager/blob/master/examples/samples/monitoringAndRanging.android.md)
+- [ranging (only)](https://github.com/MacKentoch/react-native-beacons-manager-new/blob/master/examples/samples/ranging.android.md)
+- [monitoring (only)](https://github.com/MacKentoch/react-native-beacons-manager-new/blob/master/examples/samples/monitoring.android.md)
+- [monitoring and ranging at same time](https://github.com/MacKentoch/react-native-beacons-manager-new/blob/master/examples/samples/monitoringAndRanging.android.md)
 
 *Android `bluetooth service is required` but depending your version it not always enough:*
 - android >= 7

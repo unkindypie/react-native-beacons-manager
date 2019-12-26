@@ -54,7 +54,7 @@
 
 ## 1.0.5 (RELEASE)
  - improved documentation
-   - when you want to understand or something's wrong please have a look at [this detailed documentation + code sample](https://github.com/MacKentoch/react-native-beacons-manager/tree/master/examples/samples)
+   - when you want to understand or something's wrong please have a look at [this detailed documentation + code sample](https://github.com/MacKentoch/react-native-beacons-manager-new/tree/master/examples/samples)
  - fix `React Native 0.47` android breaking change: `Remove unused createJSModules`
 
 ## 1.0.4 (RELEASE)
@@ -65,7 +65,7 @@
   - add new layouts:
     - altBeacon
     - eddystone (uid, tlm, url)
-  - PR [#13](https://github.com/MacKentoch/react-native-beacons-manager/pull/13)
+  - PR [#13](https://github.com/MacKentoch/react-native-beacons-manager-new/pull/13)
   - fixes
     - iOS monitoring
 

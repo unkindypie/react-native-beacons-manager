@@ -3,7 +3,7 @@
 // #region imports
 import React, { Component } from 'react';
 import { AppRegistry, StyleSheet, View, Text, ListView } from 'react-native';
-import Beacons from 'react-native-beacons-manager';
+import Beacons from 'react-native-beacons-manager-new';
 import BluetoothState from 'react-native-bluetooth-state';
 import moment from 'moment';
 import { hashCode, deepCopyBeaconsLists } from './helpers';

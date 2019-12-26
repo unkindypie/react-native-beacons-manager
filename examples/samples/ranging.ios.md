@@ -28,7 +28,7 @@ Ensure to call
 Beacons.requestWhenInUseAuthorization();
 ```
 
-[See matching lines in sample example](https://github.com/MacKentoch/react-native-beacons-manager/blob/master/examples/samples/ranging.ios.js#L35)
+[See matching lines in sample example](https://github.com/MacKentoch/react-native-beacons-manager-new/blob/master/examples/samples/ranging.ios.js#L35)
 
 #### in your iOS project
 
@@ -50,7 +50,7 @@ Ensure to call
 Beacons.requestAlwaysAuthorization();
 ```
 
-[See matching lines in sample example](https://github.com/MacKentoch/react-native-beacons-manager/blob/master/examples/samples/ranging.ios.js#L35)
+[See matching lines in sample example](https://github.com/MacKentoch/react-native-beacons-manager-new/blob/master/examples/samples/ranging.ios.js#L35)
 
 #### in your iOS project
 
@@ -78,7 +78,7 @@ Beacons
 .catch(error => console.log(`Beacons ranging not started, error: ${error}`));
 ```
 
-[See matching lines in sample example](https://github.com/MacKentoch/react-native-beacons-manager/blob/master/examples/samples/ranging.ios.js#L41)
+[See matching lines in sample example](https://github.com/MacKentoch/react-native-beacons-manager-new/blob/master/examples/samples/ranging.ios.js#L41)
 
 ## 3- register events
 
@@ -111,7 +111,7 @@ Note: beacons is an array of object:
 }
 ```
 
-[See matching lines in sample example](https://github.com/MacKentoch/react-native-beacons-manager/blob/master/examples/samples/ranging.ios.js#L50)
+[See matching lines in sample example](https://github.com/MacKentoch/react-native-beacons-manager-new/blob/master/examples/samples/ranging.ios.js#L50)
 
 
 ## 4- on componentWillUnMount: unregister events and stop ranging
@@ -132,4 +132,4 @@ Beacons
 this.beaconsDidRangeEvent.remove();
 ```
 
-[See matching lines in sample example](https://github.com/MacKentoch/react-native-beacons-manager/blob/master/examples/samples/ranging.ios.js#L61)
+[See matching lines in sample example](https://github.com/MacKentoch/react-native-beacons-manager-new/blob/master/examples/samples/ranging.ios.js#L61)
